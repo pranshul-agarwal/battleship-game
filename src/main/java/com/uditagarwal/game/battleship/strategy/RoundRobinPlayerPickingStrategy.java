@@ -2,9 +2,11 @@ package com.uditagarwal.game.battleship.strategy;
 
 import com.uditagarwal.game.battleship.exceptions.InvalidInputException;
 import com.uditagarwal.game.battleship.model.player.Player;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
+@Component
 public class RoundRobinPlayerPickingStrategy implements IPlayerPickingStrategy {
 
     @Override

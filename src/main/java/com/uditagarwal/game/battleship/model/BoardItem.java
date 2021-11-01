@@ -11,7 +11,7 @@ import java.util.List;
 @Getter
 @AllArgsConstructor
 @ToString
-public class BoardItem {
+public abstract class BoardItem {
 
     private final String name;
     private final IBoundary boundary;

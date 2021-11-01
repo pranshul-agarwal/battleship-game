@@ -6,7 +6,7 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public class PlayerChanceTarget {
+public class PlayerMoveTarget {
 
     final Player targetPlayer;
     final Coordinate target;
